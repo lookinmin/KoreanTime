@@ -75,9 +75,10 @@
             android:padding="10dp">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/map"/>
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/map"
+                android:id="@+id/meeting_making1"/>
 
             <TextView
                 android:layout_width="wrap_content"

@@ -19,16 +19,19 @@
         android:theme="@style/Theme.KoreanTime">
         <activity
             android:name=".MeetingMaking"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".GroupMeetings"
-            android:exported="true" />
+            android:exported="false" />
+        <activity
+            android:name=".GroupMaking"
+            android:exported="false" />
         <activity
             android:name=".MainPage"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".SignUp"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".StartPage"
             android:exported="true">

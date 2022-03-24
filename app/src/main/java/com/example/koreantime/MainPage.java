@@ -6,18 +6,18 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class MainPage extends AppCompatActivity {
 
@@ -25,8 +25,11 @@ public class MainPage extends AppCompatActivity {
     boolean sidebarFlag = false;
     LinearLayout sidebar;
 
+
     Animation translateLeft;
     Animation translateRight;
+
+    ArrayList<ImageButton> meetingMaking = new ArrayList<>();
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -38,14 +41,27 @@ public class MainPage extends AppCompatActivity {
         Button sidebarBtn = findViewById(R.id.sidebarBtn);
         ImageButton group_making_btn = findViewById(R.id.group_making_btn);
 
+        meetingMaking.add(findViewById(R.id.meeting_making1));
+        //이미지 버튼 arraylist에 add하면서 인덱스 맞춰서 호출
+        meetingMaking.get(0).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainPage.this, MeetingMaking.class);
+                startActivity(intent);
+            }
+        });
+
         group_making_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(MainPage.this, "Asdf", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainPage.this, GroupMaking.class);
                 startActivity(intent);
             }
         });
         //그룹 만드는 페이지로 intent
+
+
 
         translateLeft = AnimationUtils.loadAnimation(this, R.anim.translate_left);
         translateRight = AnimationUtils.loadAnimation(this, R.anim.translate_right);
