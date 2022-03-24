@@ -13,7 +13,7 @@ public class StartPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.start_page);
 
         EditText id = findViewById(R.id.id);
         EditText pw = findViewById(R.id.pw);

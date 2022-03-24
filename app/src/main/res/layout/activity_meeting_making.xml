@@ -17,12 +17,13 @@
             android:orientation="vertical"
             android:layout_gravity="center">
 
-            <CalendarView
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
-                android:layout_gravity="center">
-
-            </CalendarView>
+                android:layout_gravity="center"
+                android:id="@+id/calendar"
+                app:mcv_selectionColor="#d2d2d2">
+            </com.prolificinteractive.materialcalendarview.MaterialCalendarView>
 
             <TimePicker
                 android:layout_width="wrap_content"
@@ -172,7 +173,8 @@
                 android:layout_height="wrap_content"
                 android:hint="완료"
                 android:layout_gravity="center"
-                android:layout_marginBottom="0dp"/>
+                android:layout_marginBottom="0dp"
+                android:id="@+id/complete"/>
 
         </LinearLayout>
 

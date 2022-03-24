@@ -36,7 +36,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="vertical"
         android:paddingLeft="50dp"
@@ -116,9 +116,13 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:background="@drawable/add" />
-
-
     </LinearLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="뒤로 가기"
+        android:layout_gravity="center"
+        android:id="@+id/back"/>
 
 </LinearLayout>
