@@ -21,7 +21,7 @@
             android:name=".MeetingMaking"
             android:exported="false" />
         <activity
-            android:name=".StartPage"
+            android:name=".GroupMeetings"
             android:exported="false" />
         <activity
             android:name=".MainPage"
@@ -30,7 +30,7 @@
             android:name=".SignUp"
             android:exported="false" />
         <activity
-            android:name=".GroupMeetings"
+            android:name=".StartPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
