@@ -1,4 +1,4 @@
-# KoreanTime
+# Where You At? : WAY
 ### 2022 오픈소스전문프로젝트 교과목 우수상
 in CBNU Department of Computer Science
 <hr/>
