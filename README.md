@@ -35,4 +35,6 @@ in CBNU Department of Computer Science
 ### 일정 도착
 <img src="./img/now.png" width="30%">
 
+<hr/>
+
 ### AWARDS
