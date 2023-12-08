@@ -23,16 +23,16 @@ in CBNU Department of Computer Science
 
 ## 결과 화면
 ### Main & Group
-<img src="./img/main.png" width="40%"> | <img src="./img/group.png" width="40%">
+<img src="./img/main.png" width="30%"> | <img src="./img/group.png" width="30%">
 
 #
 
 ### 일정 생성
-<img src="./img/make.png" width="40%"> | <img src="./img/inner.png" width="40%">
+<img src="./img/make.png" width="30%"> | <img src="./img/inner.png" width="30%">
 
 #
 
 ### 일정 도착
-<img src="./img/now.png" width="40%">
+<img src="./img/now.png" width="30%">
 
 ### AWARDS
